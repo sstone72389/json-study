@@ -49,10 +49,26 @@ A kitchen has many items.
 -   An herbs and spices rack containing chives, lemon grass, and mint on one
     rack, and cinnamon, nutmeg, and vanilla on another shelf.
 
-```json
-<!-- your answer here -->
-```
-
+json
+**** I did my best below ****
+{
+	"kitchen": {
+		"cupboard": {
+			"bowls": 12,
+			"plates": 12
+		},
+		"spicerack1": {
+			"chives": true,
+			"lemon-grass": true,
+			"mint": true
+		},
+		"spicerack2": {
+			"cinnamon": true,
+			"nutmeg": true,
+			"vanilla": true
+		}
+	}
+}
 ## Modeling Data Using JSON: Part II
 
 The kitchen also has a fruit basket containing several cultivars of apples in
@@ -61,16 +77,40 @@ delicious apple.
 
 Copy the JSON that you wrote for the previous question and include the new information about the kitchen.
 
-```json
-<!-- your answer here -->
-```
+json
+
+
+{
+	"kitchen": {
+		"cupboard": {
+			"bowls": 12,
+			"plates": 12
+		},
+		"spicerack1": {
+			"chives": true,
+			"lemon-grass": true,
+			"mint": true
+		},
+		"spicerack2": {
+			"cinnamon": true,
+			"nutmeg": true,
+			"vanilla": true
+		},
+		"fruitbasket": {
+			"Fuji": 2,
+			"Gala": 7,
+			"Golden-delicious": 1
+		}
+	}
+}
+
 
 ## JSON Methods
 
 Can you write a method in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+No you cannot
 ```
 
 ## JSON Comments
@@ -78,5 +118,5 @@ Can you write a method in the JSON that you wrote above?
 Can you write comments in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+No you cannot
 ```
